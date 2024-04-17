@@ -30,7 +30,7 @@ import { Button } from '@/components/ui/button';
 import { Loading } from '@/components/Icons';
 import { formatDateAndTime } from "@/helper/formatDateTime"
 
-const page = () => {
+const Page = () => {
 
   const [key, setKey] = useState(() => `${Endpoint.FETCH_ALL_USERS}?t=${new Date().getTime()}`);
 

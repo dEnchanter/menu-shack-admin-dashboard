@@ -7,9 +7,9 @@ import { ShoppingCartIcon, UsersIcon } from "@heroicons/react/24/outline";
 // import { useRouter } from "next/navigation";
 // import { useEffect } from "react";
 
-export default function page() {
+export default function Page() {
 
-  const { user } = useUserDetails();
+  // const { user } = useUserDetails();
 
   return (
     <main className="grid grid-cols-[7fr_3fr] -mt-5">

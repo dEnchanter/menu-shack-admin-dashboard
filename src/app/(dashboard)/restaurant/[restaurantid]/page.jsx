@@ -30,7 +30,7 @@ import { Button } from '@/components/ui/button';
 import { Loading } from '@/components/Icons';
 import { formatDateAndTime } from "@/helper/formatDateTime"
 
-const page = ({ params }) => {
+const Page = ({ params }) => {
 
   const { restaurantid } = params
 
@@ -300,4 +300,4 @@ const page = ({ params }) => {
   )
 }
 
-export default page
+export default Page

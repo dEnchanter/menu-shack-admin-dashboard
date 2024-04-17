@@ -31,7 +31,7 @@ import { Loading } from '@/components/Icons';
 import { formatDateAndTime } from "@/helper/formatDateTime"
 import { useRouter } from "next/navigation"
 
-const page = () => {
+const Page = () => {
 
   const [key, setKey] = useState(() => `${Endpoint.FETCH_ALL_USERS}?t=${new Date().getTime()}`);
 
@@ -322,4 +322,4 @@ const page = () => {
   )
 }
 
-export default page
+export default Page

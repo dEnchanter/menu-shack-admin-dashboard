@@ -11,7 +11,7 @@ import Image from "next/image"
 import { SelectValue, SelectTrigger, SelectItem, SelectContent, Select } from "@/components/ui/select"
 import { ChromeIcon, CreditCardIcon, DribbbleIcon, FacebookIcon, LockIcon, MoreHorizontalIcon, PinIcon, ShareIcon, TwitterIcon, UserIcon } from "@/components/Icons"
 
-export default function page() {
+export default function Page() {
 
   const [activeButton, setActiveButton] = useState('accountSettings');
 
