@@ -31,7 +31,7 @@ const navigation = [
   //     { name: '- Driver', href: '/users/driver' },
   //   ],
   // },
-  { name: 'Customer', href: '/customer', icon: UsersIcon },
+  { name: 'Customers', href: '/customer', icon: UsersIcon },
   { name: 'Restaurants', href: '/restaurant', icon: ShoppingCartIcon },
   { name: 'Drivers', href: '/driver', icon: UsersIcon },
   { name: 'Order History', href: '/order', icon: ChartPieIcon },
